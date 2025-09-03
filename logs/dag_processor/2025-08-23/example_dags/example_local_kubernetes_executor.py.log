@@ -1,0 +1,3 @@
+{"timestamp":"2025-08-23T07:25:42.540158","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-23T07:26:13.984530","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-23T07:26:44.794962","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py","logger":"airflow.models.dagbag.DagBag"}

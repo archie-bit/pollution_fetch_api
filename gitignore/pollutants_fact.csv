@@ -1,0 +1,4 @@
+pollutants_sk,location_sk,weather_sk,date_sk,main_aqi,components_co,components_no,components_no2,components_o3,components_so2,components_pm2_5,components_pm10,components_nh3
+0,0,0,0,2,125.13,0.0,2.35,95.45,7.64,15.13,43.57,2.2
+1,1,0,0,1,143.78,0.0,4.29,59.71,1.51,2.48,3.66,2.86
+2,2,1,0,5,434.7,2.14,18.55,4.46,11.23,84.24,89.73,13.21

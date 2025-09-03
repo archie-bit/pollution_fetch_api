@@ -1,0 +1,35 @@
+{"timestamp":"2025-08-21T09:39:06.729153","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-21T09:39:06.730195","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-21T09:39:06.836843Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:39:06.837455Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:39:06.843533Z","level":"info","event":"Current task name:clean_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:39:06.844110Z","level":"info","event":"Dag name:weather_to_snowflake_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.528870Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.529620Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py\", line 3791, in get_loc","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.533012Z","level":"error","event":"    return self._engine.get_loc(casted_key)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.533584Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.534143Z","level":"error","event":"  File \"index.pyx\", line 152, in pandas._libs.index.IndexEngine.get_loc","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.534664Z","level":"error","event":"  File \"index.pyx\", line 181, in pandas._libs.index.IndexEngine.get_loc","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.535230Z","level":"error","event":"  File \"pandas/_libs/hashtable_class_helper.pxi\", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.536078Z","level":"error","event":"  File \"pandas/_libs/hashtable_class_helper.pxi\", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.536760Z","level":"error","event":"KeyError: 'date_times'","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.537202Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.537548Z","level":"error","event":"The above exception was the direct cause of the following exception:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.537833Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.538172Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.538504Z","level":"error","event":"  File \"/opt/airflow/dags/cleaning_data.py\", line 178, in <module>","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.539945Z","level":"error","event":"    data_cleaning()","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.540691Z","level":"error","event":"  File \"/opt/airflow/dags/cleaning_data.py\", line 75, in data_cleaning","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.542894Z","level":"error","event":"    date_dim_new= date_dim_new['date_times'].dt.floor('H')","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.543487Z","level":"error","event":"                  ~~~~~~~~~~~~^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.543979Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/pandas/core/frame.py\", line 3893, in __getitem__","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.548029Z","level":"error","event":"    indexer = self.columns.get_loc(key)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.548582Z","level":"error","event":"              ^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.549158Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py\", line 3798, in get_loc","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.550124Z","level":"error","event":"    raise KeyError(key) from err","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.550741Z","level":"error","event":"KeyError: 'date_times'","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.720620","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"CalledProcessError","exc_value":"Command '['python', 'dags/cleaning_data.py']' returned non-zero exit status 1.","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":890,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1177,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":397,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":217,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":240,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/fetchin_cleaning.py","lineno":16,"name":"clean_data"},{"filename":"/usr/local/lib/python3.12/subprocess.py","lineno":571,"name":"run"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-08-21T09:39:08.722492Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.722968Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.723471Z","level":"info","event":"Task:<Task(PythonOperator): clean_data>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:39:08.723822Z","level":"info","event":"Failure caused by Command '['python', 'dags/cleaning_data.py']' returned non-zero exit status 1.","chan":"stdout","logger":"task"}

@@ -1,0 +1,10 @@
+{"timestamp":"2025-08-21T05:27:11.837928","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-21T05:27:11.838715","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-21T05:27:12.021007Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T05:27:12.021524Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T05:27:12.022229Z","level":"info","event":"Current task name:fetch_weather","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T05:27:12.022622Z","level":"info","event":"Dag name:weather_to_snowflake_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T05:27:12.847914","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-21T05:27:12.877973Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T05:27:12.878588Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T05:27:12.879011Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_weather>","chan":"stdout","logger":"task"}

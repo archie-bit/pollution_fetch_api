@@ -1,0 +1,4 @@
+location_sk,city,sys_country,coord_lon,coord_lat,timezone,base
+0,cairo,EG,31.2357,30.0444,10800,stations
+1,warsaw,PL,21.0122,52.2297,7200,stations
+2,beijing,CN,116.3913,39.9062,28800,stations

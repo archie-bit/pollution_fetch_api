@@ -1,0 +1,6 @@
+{"timestamp":"2025-08-23T07:25:06.149507","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-23T07:25:06.845683","level":"warning","event":"Callback requested but no callback found","dag_id":"weather_to_snowflake_pipeline","task_id":"fetch_weather","run_id":"scheduled__2025-08-21T15:00:00+00:00","ti_id":"0198cd3f-5f30-726c-bff0-666cef480dfa","logger":"task"}
+{"timestamp":"2025-08-23T07:25:44.385529","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-23T07:26:15.235821","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-23T07:26:46.676754","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-23T07:27:20.989142","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}

@@ -1,0 +1,14 @@
+{"timestamp":"2025-08-21T09:27:45.783175","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-21T09:27:45.787140","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-21T09:27:46.064975Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:46.065815Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:46.066331Z","level":"info","event":"Current task name:fetch_weather","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:46.066657Z","level":"info","event":"Dag name:weather_to_snowflake_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:50.145903Z","level":"info","event":"Writing weather data to /opt/airflow/data/weather_data.json","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:50.147949Z","level":"info","event":"{'cairo': {'name': 'cairo', 'lat': 30.0443879, 'lon': 31.2357257}}","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:50.148523Z","level":"info","event":"{'cairo': {'name': 'cairo', 'lat': 30.0443879, 'lon': 31.2357257}, 'warsaw': {'name': 'warsaw', 'lat': 52.2319581, 'lon': 21.0067249}}","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:50.148986Z","level":"info","event":"{'cairo': {'name': 'cairo', 'lat': 30.0443879, 'lon': 31.2357257}, 'warsaw': {'name': 'warsaw', 'lat': 52.2319581, 'lon': 21.0067249}, 'beijing': {'name': 'beijing', 'lat': 39.906217, 'lon': 116.3912757}}","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:50.209300","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-21T09:27:50.281095Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:50.282255Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T09:27:50.283867Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_weather>","chan":"stdout","logger":"task"}

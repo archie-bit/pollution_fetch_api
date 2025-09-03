@@ -1,0 +1,7 @@
+weather_sk,weather_id,weather_main,weather_description,weather_icon
+0,800,Clear,clear sky,01d
+1,801,Clouds,few clouds,02d
+2,804,Clouds,overcast clouds,04d
+3,501,Rain,moderate rain,10d
+4,741,Fog,fog,50n
+5,802,Clouds,scattered clouds,03n

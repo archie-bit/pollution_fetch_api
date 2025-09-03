@@ -1,0 +1,138 @@
+{"timestamp":"2025-08-21T06:46:43.437440","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-21T06:46:43.438237","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/fetchin_cleaning.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-21T06:46:43.587856Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:43.588539Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:43.590941Z","level":"info","event":"Current task name:clean_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:43.591478Z","level":"info","event":"Dag name:weather_to_snowflake_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.534591Z","level":"info","event":"0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.534967Z","level":"info","event":"base                          False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.535223Z","level":"info","event":"visibility                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.535481Z","level":"info","event":"dt                            False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.535766Z","level":"info","event":"timezone                      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.536034Z","level":"info","event":"id                            False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.536288Z","level":"info","event":"name                          False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.536521Z","level":"info","event":"cod                           False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.537146Z","level":"info","event":"coord_lon                     False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.537442Z","level":"info","event":"coord_lat                     False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.537740Z","level":"info","event":"main_temp                     False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.538027Z","level":"info","event":"main_feels_like               False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.538282Z","level":"info","event":"main_temp_min                 False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.538533Z","level":"info","event":"main_temp_max                 False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.538820Z","level":"info","event":"main_pressure                 False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.539116Z","level":"info","event":"main_humidity                 False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.539392Z","level":"info","event":"main_sea_level                False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.539674Z","level":"info","event":"main_grnd_level               False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.540145Z","level":"info","event":"wind_speed                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.540394Z","level":"info","event":"wind_deg                      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.540645Z","level":"info","event":"clouds_all                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.540922Z","level":"info","event":"sys_type                      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.541237Z","level":"info","event":"sys_id                        False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.541506Z","level":"info","event":"sys_country                   False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.541772Z","level":"info","event":"sys_sunrise                   False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.541969Z","level":"info","event":"sys_sunset                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.542209Z","level":"info","event":"weather_id                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.542405Z","level":"info","event":"weather_main                  False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.542621Z","level":"info","event":"weather_description           False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.542812Z","level":"info","event":"weather_icon                  False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.543003Z","level":"info","event":"wind_gust                      True","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.543257Z","level":"info","event":"pollution_dt                  False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.543517Z","level":"info","event":"pollution_main_aqi            False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.543787Z","level":"info","event":"pollution_components_co       False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.544036Z","level":"info","event":"pollution_components_no       False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.544299Z","level":"info","event":"pollution_components_no2      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.544582Z","level":"info","event":"pollution_components_o3       False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.544876Z","level":"info","event":"pollution_components_so2      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.545338Z","level":"info","event":"pollution_components_pm2_5    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.545650Z","level":"info","event":"pollution_components_pm10     False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.545916Z","level":"info","event":"pollution_components_nh3      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.546180Z","level":"info","event":"dtype: bool","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.546450Z","level":"info","event":"base                          False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.546703Z","level":"info","event":"visibility                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.547007Z","level":"info","event":"dt                            False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.547282Z","level":"info","event":"timezone                      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.547553Z","level":"info","event":"id                            False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.547795Z","level":"info","event":"name                          False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.548278Z","level":"info","event":"cod                           False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.548557Z","level":"info","event":"coord_lon                     False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.548805Z","level":"info","event":"coord_lat                     False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.549076Z","level":"info","event":"main_temp                     False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.549379Z","level":"info","event":"main_feels_like               False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.549654Z","level":"info","event":"main_temp_min                 False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.549949Z","level":"info","event":"main_temp_max                 False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.550218Z","level":"info","event":"main_pressure                 False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.550460Z","level":"info","event":"main_humidity                 False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.550701Z","level":"info","event":"main_sea_level                False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.550943Z","level":"info","event":"main_grnd_level               False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.551177Z","level":"info","event":"wind_speed                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.551415Z","level":"info","event":"wind_deg                      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.551649Z","level":"info","event":"clouds_all                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.551909Z","level":"info","event":"sys_type                      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.552136Z","level":"info","event":"sys_id                        False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.552392Z","level":"info","event":"sys_country                   False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.552630Z","level":"info","event":"sys_sunrise                   False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.552894Z","level":"info","event":"sys_sunset                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.553173Z","level":"info","event":"weather_id                    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.553615Z","level":"info","event":"weather_main                  False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.553884Z","level":"info","event":"weather_description           False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.554164Z","level":"info","event":"weather_icon                  False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.554435Z","level":"info","event":"pollution_dt                  False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.554703Z","level":"info","event":"pollution_main_aqi            False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.554959Z","level":"info","event":"pollution_components_co       False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.555238Z","level":"info","event":"pollution_components_no       False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.555554Z","level":"info","event":"pollution_components_no2      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.555821Z","level":"info","event":"pollution_components_o3       False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.556105Z","level":"info","event":"pollution_components_so2      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.556362Z","level":"info","event":"pollution_components_pm2_5    False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.556707Z","level":"info","event":"pollution_components_pm10     False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.557024Z","level":"info","event":"pollution_components_nh3      False","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.557302Z","level":"info","event":"dtype: bool","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.557561Z","level":"info","event":"<class 'pandas.core.frame.DataFrame'>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.557822Z","level":"info","event":"Index: 12 entries, cairo to beijing","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.558172Z","level":"info","event":"Data columns (total 39 columns):","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.558451Z","level":"info","event":" #   Column                      Non-Null Count  Dtype","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.558742Z","level":"info","event":"---  ------                      --------------  -----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.559023Z","level":"info","event":" 0   base                        12 non-null     object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.559282Z","level":"info","event":" 1   visibility                  12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.559575Z","level":"info","event":" 2   dt                          12 non-null     datetime64[ns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.559828Z","level":"info","event":" 3   timezone                    12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.560101Z","level":"info","event":" 4   id                          12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.560402Z","level":"info","event":" 5   name                        12 non-null     object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.560671Z","level":"info","event":" 6   cod                         12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.560992Z","level":"info","event":" 7   coord_lon                   12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.561267Z","level":"info","event":" 8   coord_lat                   12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.561520Z","level":"info","event":" 9   main_temp                   12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.561873Z","level":"info","event":" 10  main_feels_like             12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.562154Z","level":"info","event":" 11  main_temp_min               12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.562437Z","level":"info","event":" 12  main_temp_max               12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.562682Z","level":"info","event":" 13  main_pressure               12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.562949Z","level":"info","event":" 14  main_humidity               12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.563466Z","level":"info","event":" 15  main_sea_level              12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.563755Z","level":"info","event":" 16  main_grnd_level             12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.564015Z","level":"info","event":" 17  wind_speed                  12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.564290Z","level":"info","event":" 18  wind_deg                    12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.564708Z","level":"info","event":" 19  clouds_all                  12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.564991Z","level":"info","event":" 20  sys_type                    12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.565235Z","level":"info","event":" 21  sys_id                      12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.565450Z","level":"info","event":" 22  sys_country                 12 non-null     object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.565703Z","level":"info","event":" 23  sys_sunrise                 12 non-null     datetime64[ns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.565895Z","level":"info","event":" 24  sys_sunset                  12 non-null     datetime64[ns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.566083Z","level":"info","event":" 25  weather_id                  12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.566308Z","level":"info","event":" 26  weather_main                12 non-null     object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.566520Z","level":"info","event":" 27  weather_description         12 non-null     object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.566717Z","level":"info","event":" 28  weather_icon                12 non-null     object","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.566920Z","level":"info","event":" 29  pollution_dt                12 non-null     datetime64[ns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.567201Z","level":"info","event":" 30  pollution_main_aqi          12 non-null     int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.567419Z","level":"info","event":" 31  pollution_components_co     12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.567656Z","level":"info","event":" 32  pollution_components_no     12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.567893Z","level":"info","event":" 33  pollution_components_no2    12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.568130Z","level":"info","event":" 34  pollution_components_o3     12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.568373Z","level":"info","event":" 35  pollution_components_so2    12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.568602Z","level":"info","event":" 36  pollution_components_pm2_5  12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.568866Z","level":"info","event":" 37  pollution_components_pm10   12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.569141Z","level":"info","event":" 38  pollution_components_nh3    12 non-null     float64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.569370Z","level":"info","event":"dtypes: datetime64[ns](4), float64(15), int64(14), object(6)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.569622Z","level":"info","event":"memory usage: 3.8+ KB","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.684603","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-21T06:46:45.722946Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.723407Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-21T06:46:45.723742Z","level":"info","event":"Task operator:<Task(PythonOperator): clean_data>","chan":"stdout","logger":"task"}
