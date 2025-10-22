@@ -1,6 +1,6 @@
 # 🌤️ pollution_fetch_api
 
-##Overview
+## Overview
 
 pollution_fetch_api is an end-to-end data pipeline that automates the collection, cleaning, and loading of weather and air pollution data from the OpenWeather API into a Snowflake data warehouse.
 The pipeline is fully orchestrated with Apache Airflow and containerized using Docker, ensuring scalability, reliability, and repeatability for long-term environmental data analysis.
