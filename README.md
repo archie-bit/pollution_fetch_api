@@ -1,10 +1,12 @@
-🌤️ pollution_fetch_api
-Overview
+#🌤️ pollution_fetch_api
+
+##Overview
 
 pollution_fetch_api is an end-to-end data pipeline that automates the collection, cleaning, and loading of weather and air pollution data from the OpenWeather API into a Snowflake data warehouse.
 The pipeline is fully orchestrated with Apache Airflow and containerized using Docker, ensuring scalability, reliability, and repeatability for long-term environmental data analysis.
 
-🚀 Tech Stack
+
+##🚀 Tech Stack
 
 Python – Data processing and transformation (Pandas, JSON handling)
 
@@ -18,7 +20,8 @@ Pandas – Data cleaning, transformation, and feature extraction
 
 OpenWeather API – Data source for weather and air pollution metrics
 
-🌍 Data Source
+
+##🌍 Data Source
 
 API: OpenWeather API
 Endpoints Used:
@@ -27,7 +30,8 @@ Air Pollution Data
 
 Each DAG run fetches weather and pollution data for a set of selected cities, ensuring consistent updates and enabling time-series analysis of environmental metrics.
 
-🧩 Pipeline Overview
+
+##🧩 Pipeline Overview
 
 Fetch Data
 Airflow triggers API calls to OpenWeather endpoints to collect weather and pollution data in JSON format.
@@ -47,9 +51,10 @@ Cleaned data is written to CSV files, staged, and loaded into Snowflake using th
 Schedule & Automation
 Airflow schedules the DAG to run automatically (daily or hourly), ensuring continuous data growth for historical and trend analysis.
 
-🏗️ Data Warehouse Schema
 
-Dimensions
+##🏗️ Data Warehouse Schema
+
+###Dimensions
 
 date_dim: stores timestamps and calendar attributes
 
@@ -57,13 +62,13 @@ location_dim: stores city-specific metadata
 
 weather_dim: stores unique weather condition records
 
-Facts
+###Facts
 
 pollutants_fact: stores pollutant concentration metrics with foreign keys to dimensions
 
 weather_fact: stores main weather metrics (temperature, pressure, humidity, etc.)
 
-⚙️ Project Structure
+##⚙️ Project Structure
 pollution_fetch_api/
 │
 ├── dags/
@@ -78,7 +83,7 @@ pollution_fetch_api/
     ├── pollution_data.json
     └── processed CSVs (dimensions & facts)
 
-🧠 Key Highlights
+##🧠 Key Highlights
 
 Designed using modular ETL principles
 
@@ -90,7 +95,8 @@ Fully automated pipeline — from API fetch to Snowflake loading
 
 Easily scalable for new data sources or additional cities
 
-💾 Setup & Usage
+
+##💾 Setup & Usage
 
 1. Clone the Repository
 git clone https://github.com/<your-username>/pollution_fetch_api.git
@@ -106,7 +112,7 @@ Default credentials: airflow / airflow
 4. Trigger DAG
 Run the DAG named weather_to_snowflake_pipeline
 
-🧑‍💻 Author
+##🧑‍💻 Author
 
 Karim Baraka
 📧 https://www.linkedin.com/in/karim-yasser-372874319/
