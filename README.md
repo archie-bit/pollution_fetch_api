@@ -68,20 +68,6 @@ pollutants_fact: stores pollutant concentration metrics with foreign keys to dim
 
 weather_fact: stores main weather metrics (temperature, pressure, humidity, etc.)
 
-## ⚙️ Project Structure
-pollution_fetch_api/
-│
-├── dags/
-│   ├── fetchin_cleaning.py        # Main Airflow DAG
-│   ├── cleaning_data.py           # Data transformation logic
-│
-├── docker-compose.yml             # Docker setup for Airflow
-├── requirements.txt               # Python dependencies
-├── README.md                      # Project documentation
-└── data/
-    ├── weather_data.json
-    ├── pollution_data.json
-    └── processed CSVs (dimensions & facts)
 
 ## 🧠 Key Highlights
 
